@@ -2,30 +2,6 @@
 This repository contains all files and code needed to transform legacy data into the format required by template files.
 Folder Structure
 
-| - root/
-|
-|ÊÊÊÊ| - code/
-|ÊÊÊÊ|ÊÊÊÊ| - Greenhouse_Take_Home_Assessment.ipymb
-|    | 
-|ÊÊÊÊ| - data/
-|ÊÊÊÊ|ÊÊÊÊ| - Historic_data/
-|ÊÊÊÊ|ÊÊÊÊ|ÊÊÊÊ| - candidates.presence.latest.csvÊÊÊ
-|ÊÊÊÊ|ÊÊÊÊ|ÊÊÊÊ| - Resumes/
-|ÊÊÊÊ|ÊÊÊÊ|ÊÊÊÊ|ÊÊÊÊ| - 21338490.pdf
-|ÊÊÊÊ|ÊÊÊÊ|ÊÊÊÊ|ÊÊÊÊ| - 21763056.pdf
-|ÊÊÊÊ|ÊÊÊÊ|ÊÊÊÊ|ÊÊÊÊ| - ÉÉ
-|    |    |
-|ÊÊÊÊ|ÊÊÊÊ| - Templates/
-|ÊÊÊÊ|ÊÊÊÊ|ÊÊÊÊ| - Application Template.xlsx
-|ÊÊÊÊ|ÊÊÊÊ|ÊÊÊÊ| - Attachments Template.xlsx
-|ÊÊÊÊ|ÊÊÊÊ|ÊÊÊÊ| - Candidates Template.xlsx
-|ÊÊÊÊ|ÊÊÊÊ|ÊÊÊÊ| - Jobs Template.xlsx  
-|ÊÊÊÊ|
-|ÊÊÊÊ| - transformed_data/
-|ÊÊÊÊ|ÊÊÊÊ| - Applications Template.xlsx
-|ÊÊÊÊ|ÊÊÊÊ| - Attachments Template.xlsx
-|ÊÊÊÊ|ÊÊÊÊ| - Candidates Template.xlsx
-|ÊÊÊÊ|ÊÊÊÊ| - Jobs Template.xlsx
 
 Instructions to Run
 1. Create a Root Folder
@@ -46,6 +22,7 @@ Notes
 * All paths are constructed dynamically to ensure portability.
 * Output Excel files will be saved to the transformed_data/ folder using the same filenames as the templates.
 * Ensure you have the required packages installed (pandas, openpyxl).
+
 
 
 
