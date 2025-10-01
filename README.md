@@ -1,31 +1,4 @@
-# Job-Applicants-Data-Migrations
-This repository contains all files and code needed to transform legacy data into the format required by template files.
-Folder Structure
 
-| - root/
-|
-|    | - code/
-|    |    | - transformations.ipymb
-|    | 
-|    | - data/
-|    |    | - Historic_data/
-|    |    |    | - candidates.presence.latest.csv   
-|    |    |    | - Resumes/
-|    |    |    |    | - 21338490.pdf
-|    |    |    |    | - 21763056.pdf
-|    |    |    |    | - ……
-|    |    |
-|    |    | - Templates/
-|    |    |    | - Application Template.xlsx
-|    |    |    | - Attachments Template.xlsx
-|    |    |    | - Candidates Template.xlsx
-|    |    |    | - Jobs Template.xlsx  
-|    |
-|    | - transformed_data/
-|    |    | - Applications Template.xlsx
-|    |    | - Attachments Template.xlsx
-|    |    | - Candidates Template.xlsx
-|    |    | - Jobs Template.xlsx
 
 Instructions to Run
 1. Create a Root Folder
